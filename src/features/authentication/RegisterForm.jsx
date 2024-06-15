@@ -4,7 +4,7 @@ function RegisterForm() {
   const { formik, error, isLoading } = useRegisterValidate();
 
   return (
-    <div>
+    <div className="w-100">
       <div className="py-5 w-75 mx-auto">
         <h2 className="mb-4">Register Now</h2>
 

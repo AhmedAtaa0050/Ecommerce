@@ -5,7 +5,7 @@ function LoginForm() {
   const { error, isLoading, formik } = useLoginValidate();
 
   return (
-    <div>
+    <div className="w-100">
       <div className="py-5 w-75 mx-auto">
         <h2 className="mb-4">Login Now</h2>
 

@@ -60,6 +60,10 @@ a:hover {
   color: var(--main-color);
 }
 
+.main-color {
+  color: var(--main-color);
+}
+
 .bg-main {
   background-color: var(--main-color) !important;
 }
